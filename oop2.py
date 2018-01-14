@@ -18,7 +18,7 @@ emp_2 = Employee('Two','Paul',2000)
 
 #print emp_1.first,emp_1.last
 #print ('{} {}'.format(emp_1.first, emp_1.last))
-#print(emp_1.fullname())
 print(Employee.fullname(emp_1))
+print(Employee.fullname(emp_2))
 print(Employee.fullname(emp_2))
 #print emp_1.fullname()
